@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODAMAX</title>
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display+SC&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        user-select: none;
+        transition: 0.3s linear all;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      h1 {
+        font: normal 4em "Playfair Display SC", serif;
+        text-align: center;
+      }
+      body {
+        font: normal 18px "Open Sans", sans-serif;
+        background: #fafafa;
+        color: #333;
+      }
+      #name {
+        padding: 10px;
+        border: 1px solid #d4d4d4;
+        border-radius: 4px;
+      }
+      .horizontal-view {
+        display: flex;
+      }
+      .main-view {
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <a href="https://google.com">Primeiro Item</a>
+        <a href="./about-us.html">Segundo Item</a>
+        <a href="#">Terceiro Item</a>
+        <a href="#">Quarto Item</a>
+      </nav>
+    </div>
+    <div class="horizontal-view">
+      <div class="menu">
+        <ul class="sidebar">
+          <li>Home</li>
+          <li>Produtos</li>
+          <li>Detalhes</li>
+          <li>Contato</li>
+        </ul>
+      </div>
+      <div class="main-view">
+        <h1>POKEDEX INTERATIVA - CODAMAX</h1>
+
+        <input type="text" style="margin-top: 15px" id="name" />
+        <div class="images"></div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

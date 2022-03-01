@@ -1,0 +1,22 @@
+.sidebar {
+    width: 1px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar:hover {
+    width: 100%;
+    margin-right: 50px;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #d4d4d4;
+    cursor: pointer;
+}
+
+li:hover {
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    background-color: rgb(88, 146, 127);
+}
